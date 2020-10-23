@@ -1,4 +1,4 @@
-#ETL Proposal
+# ETL Proposal
 Aggregating data regarding opiate prescriptions from multiple sources, primarily comparing number of prescriptions vs. overdose cases or overdose deaths.
 
 
@@ -28,6 +28,7 @@ load the resulting data to a database (relational or non-relational)
   > 1) aggregate data by state
   > 2) drop any non-useful columns
   > 3) combine data sources based on a common key (state?)
+  > Final database will likely be relational
 
 Flask API:
 - Build a Flask application that has a route that will execute a query to your database and return the results in JSON format.
