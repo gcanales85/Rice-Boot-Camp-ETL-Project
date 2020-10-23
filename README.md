@@ -2,16 +2,16 @@
 Aggregating data regarding opiate prescriptions from multiple sources, primarily comparing number of prescriptions vs. overdose cases or overdose deaths.
 
 
-
-Your names
-● A link to your team’s github repo
-● Datasets you intend to use
-● What useful investigation could be done with the final database
-● Whether final database will be relational or non-relational. Why?
-
-
 # Rice-Boot-Camp-ETL-Project
 Rice-Boot-Camp-ETL Project
+
+Considerations regarding proposal:
+- A link to your team’s github repo
+- Datasets you intend to use
+- What useful investigation could be done with the final database
+- Whether final database will be relational or non-relational. Why?
+
+
 
 # PROJECT REQUIREMENTS
 Data Sources:
@@ -42,18 +42,18 @@ Github Repo:
 
 
 FINAL REPORT REQUIREMENTS
-● What data sources you chose, and why?
-● Detailing the process of the extraction, transformation, and loading steps
-● Explain why you have performed the types of transformation you did
-● Why you chose the type of final database
-● Schema of the tables/collections in the final database
-● Hypothetical use case(s) for your database
+-What data sources you chose, and why?
+-Detailing the process of the extraction, transformation, and loading steps
+- Explain why you have performed the types of transformation you did
+- Why you chose the type of final database
+- Schema of the tables/collections in the final database
+- Hypothetical use case(s) for your database
 
 Questions to consider in your ETL
-● Is my data redundant?
-● Is there a way to normalize this data?
-● Can I accomplish the same thing with less code?
-● Is my code maintainable? If I let someone else read it, would they
+- Is my data redundant?
+- Is there a way to normalize this data?
+- Can I accomplish the same thing with less code?
+- Is my code maintainable? If I let someone else read it, would they
 understand it?
-● Why would someone want to use my final dataset?
+- Why would someone want to use my final dataset?
 
