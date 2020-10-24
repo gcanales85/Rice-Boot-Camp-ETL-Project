@@ -1,0 +1,665 @@
+,State,State ABBR,Prescribing Rate,Year
+0,Alabama,AL,115.6,2006
+1,Alaska,AK,63.4,2006
+2,Arizona,AZ,74.3,2006
+3,Arkansas,AR,98.3,2006
+4,California,CA,51.0,2006
+5,Colorado,CO,62.2,2006
+6,Connecticut,CT,64.7,2006
+7,Delaware,DE,86.6,2006
+8,District of Columbia,DC,31.7,2006
+9,Florida,FL,79.7,2006
+10,Georgia,GA,79.8,2006
+11,Hawaii,HI,42.3,2006
+12,Idaho,ID,75.6,2006
+13,Illinois,IL,55.6,2006
+14,Indiana,IN,94.3,2006
+15,Iowa,IA,59.3,2006
+16,Kansas,KS,77.5,2006
+17,Kentucky,KY,122.6,2006
+18,Louisiana,LA,109.2,2006
+19,Maine,ME,83.6,2006
+20,Maryland,MD,60.1,2006
+21,Massachusetts,MA,66.0,2006
+22,Michigan,MI,80.2,2006
+23,Minnesota,MN,50.3,2006
+24,Mississippi,MS,102.7,2006
+25,Missouri,MO,80.5,2006
+26,Montana,MT,79.1,2006
+27,Nebraska,NE,64.3,2006
+28,Nevada,NV,87.7,2006
+29,New Hampshire,NH,75.0,2006
+30,New Jersey,NJ,54.7,2006
+31,New Mexico,NM,61.8,2006
+32,New York,NY,44.2,2006
+33,North Carolina,NC,85.2,2006
+34,North Dakota,ND,56.0,2006
+35,Ohio,OH,87.7,2006
+36,Oklahoma,OK,108.7,2006
+37,Oregon,OR,91.0,2006
+38,Pennsylvania,PA,69.5,2006
+39,Rhode Island,RI,78.7,2006
+40,South Carolina,SC,90.4,2006
+41,South Dakota,SD,50.0,2006
+42,Tennessee,TN,124.8,2006
+43,Texas,TX,66.8,2006
+44,Utah,UT,87.0,2006
+45,Vermont,VT,56.9,2006
+46,Virginia,VA,67.2,2006
+47,Washington,WA,80.8,2006
+48,West Virginia,WV,129.9,2006
+49,Wisconsin,WI,64.7,2006
+50,Wyoming,WY,79.9,2006
+51,Alabama,AL,120.3,2007
+52,Alaska,AK,66.6,2007
+53,Arizona,AZ,77.8,2007
+54,Arkansas,AR,108.2,2007
+55,California,CA,53.6,2007
+56,Colorado,CO,65.9,2007
+57,Connecticut,CT,67.5,2007
+58,Delaware,DE,92.3,2007
+59,District of Columbia,DC,41.2,2007
+60,Florida,FL,82.2,2007
+61,Georgia,GA,82.5,2007
+62,Hawaii,HI,44.5,2007
+63,Idaho,ID,78.8,2007
+64,Illinois,IL,59.2,2007
+65,Indiana,IN,99.7,2007
+66,Iowa,IA,57.1,2007
+67,Kansas,KS,80.6,2007
+68,Kentucky,KY,130.8,2007
+69,Louisiana,LA,110.1,2007
+70,Maine,ME,85.4,2007
+71,Maryland,MD,63.3,2007
+72,Massachusetts,MA,68.2,2007
+73,Michigan,MI,85.6,2007
+74,Minnesota,MN,53.7,2007
+75,Mississippi,MS,109.9,2007
+76,Missouri,MO,84.3,2007
+77,Montana,MT,81.1,2007
+78,Nebraska,NE,65.1,2007
+79,Nevada,NV,90.2,2007
+80,New Hampshire,NH,78.5,2007
+81,New Jersey,NJ,57.2,2007
+82,New Mexico,NM,69.0,2007
+83,New York,NY,46.1,2007
+84,North Carolina,NC,87.5,2007
+85,North Dakota,ND,59.3,2007
+86,Ohio,OH,92.7,2007
+87,Oklahoma,OK,114.4,2007
+88,Oregon,OR,95.5,2007
+89,Pennsylvania,PA,73.7,2007
+90,Rhode Island,RI,82.2,2007
+91,South Carolina,SC,91.7,2007
+92,South Dakota,SD,49.9,2007
+93,Tennessee,TN,128.8,2007
+94,Texas,TX,71.2,2007
+95,Utah,UT,89.8,2007
+96,Vermont,VT,56.0,2007
+97,Virginia,VA,70.1,2007
+98,Washington,WA,84.4,2007
+99,West Virginia,WV,135.1,2007
+100,Wisconsin,WI,69.2,2007
+101,Wyoming,WY,80.8,2007
+102,Alabama,AL,126.1,2008
+103,Alaska,AK,68.5,2008
+104,Arizona,AZ,80.9,2008
+105,Arkansas,AR,112.1,2008
+106,California,CA,55.1,2008
+107,Colorado,CO,67.7,2008
+108,Connecticut,CT,68.7,2008
+109,Delaware,DE,95.4,2008
+110,District of Columbia,DC,34.5,2008
+111,Florida,FL,84.3,2008
+112,Georgia,GA,86.3,2008
+113,Hawaii,HI,46.6,2008
+114,Idaho,ID,82.7,2008
+115,Illinois,IL,60.2,2008
+116,Indiana,IN,103.3,2008
+117,Iowa,IA,59.1,2008
+118,Kansas,KS,82.7,2008
+119,Kentucky,KY,136.6,2008
+120,Louisiana,LA,113.7,2008
+121,Maine,ME,88.7,2008
+122,Maryland,MD,65.5,2008
+123,Massachusetts,MA,69.2,2008
+124,Michigan,MI,89.9,2008
+125,Minnesota,MN,56.5,2008
+126,Mississippi,MS,113.2,2008
+127,Missouri,MO,86.8,2008
+128,Montana,MT,85.3,2008
+129,Nebraska,NE,66.2,2008
+130,Nevada,NV,97.0,2008
+131,New Hampshire,NH,81.7,2008
+132,New Jersey,NJ,59.5,2008
+133,New Mexico,NM,71.4,2008
+134,New York,NY,48.4,2008
+135,North Carolina,NC,88.6,2008
+136,North Dakota,ND,61.7,2008
+137,Ohio,OH,97.5,2008
+138,Oklahoma,OK,111.3,2008
+139,Oregon,OR,99.1,2008
+140,Pennsylvania,PA,76.5,2008
+141,Rhode Island,RI,82.9,2008
+142,South Carolina,SC,94.1,2008
+143,South Dakota,SD,52.1,2008
+144,Tennessee,TN,132.9,2008
+145,Texas,TX,71.3,2008
+146,Utah,UT,91.3,2008
+147,Vermont,VT,56.5,2008
+148,Virginia,VA,73.0,2008
+149,Washington,WA,86.6,2008
+150,West Virginia,WV,145.5,2008
+151,Wisconsin,WI,70.6,2008
+152,Wyoming,WY,81.0,2008
+153,Alabama,AL,131.6,2009
+154,Alaska,AK,67.3,2009
+155,Arizona,AZ,84.2,2009
+156,Arkansas,AR,116.0,2009
+157,California,CA,55.6,2009
+158,Colorado,CO,69.8,2009
+159,Connecticut,CT,68.1,2009
+160,Delaware,DE,97.5,2009
+161,District of Columbia,DC,34.4,2009
+162,Florida,FL,86.3,2009
+163,Georgia,GA,88.2,2009
+164,Hawaii,HI,47.8,2009
+165,Idaho,ID,85.2,2009
+166,Illinois,IL,61.0,2009
+167,Indiana,IN,105.6,2009
+168,Iowa,IA,60.4,2009
+169,Kansas,KS,82.8,2009
+170,Kentucky,KY,135.2,2009
+171,Louisiana,LA,113.0,2009
+172,Maine,ME,87.9,2009
+173,Maryland,MD,66.9,2009
+174,Massachusetts,MA,68.9,2009
+175,Michigan,MI,91.6,2009
+176,Minnesota,MN,58.6,2009
+177,Mississippi,MS,117.3,2009
+178,Missouri,MO,88.5,2009
+179,Montana,MT,85.8,2009
+180,Nebraska,NE,66.4,2009
+181,Nevada,NV,94.0,2009
+182,New Hampshire,NH,81.5,2009
+183,New Jersey,NJ,59.9,2009
+184,New Mexico,NM,75.3,2009
+185,New York,NY,49.5,2009
+186,North Carolina,NC,89.3,2009
+187,North Dakota,ND,60.3,2009
+188,Ohio,OH,100.4,2009
+189,Oklahoma,OK,115.0,2009
+190,Oregon,OR,99.3,2009
+191,Pennsylvania,PA,78.1,2009
+192,Rhode Island,RI,82.5,2009
+193,South Carolina,SC,95.8,2009
+194,South Dakota,SD,52.3,2009
+195,Tennessee,TN,138.4,2009
+196,Texas,TX,71.8,2009
+197,Utah,UT,86.9,2009
+198,Vermont,VT,54.5,2009
+199,Virginia,VA,74.1,2009
+200,Washington,WA,86.1,2009
+201,West Virginia,WV,146.9,2009
+202,Wisconsin,WI,71.9,2009
+203,Wyoming,WY,81.0,2009
+204,Alabama,AL,134.3,2010
+205,Alaska,AK,68.4,2010
+206,Arizona,AZ,88.5,2010
+207,Arkansas,AR,120.8,2010
+208,California,CA,55.8,2010
+209,Colorado,CO,72.0,2010
+210,Connecticut,CT,68.6,2010
+211,Delaware,DE,101.1,2010
+212,District of Columbia,DC,37.1,2010
+213,Florida,FL,87.6,2010
+214,Georgia,GA,90.2,2010
+215,Hawaii,HI,50.1,2010
+216,Idaho,ID,88.6,2010
+217,Illinois,IL,63.1,2010
+218,Indiana,IN,107.1,2010
+219,Iowa,IA,62.3,2010
+220,Kansas,KS,86.1,2010
+221,Kentucky,KY,136.5,2010
+222,Louisiana,LA,112.6,2010
+223,Maine,ME,92.8,2010
+224,Maryland,MD,71.2,2010
+225,Massachusetts,MA,67.9,2010
+226,Michigan,MI,96.0,2010
+227,Minnesota,MN,59.0,2010
+228,Mississippi,MS,118.1,2010
+229,Missouri,MO,91.0,2010
+230,Montana,MT,87.2,2010
+231,Nebraska,NE,69.0,2010
+232,Nevada,NV,97.3,2010
+233,New Hampshire,NH,81.6,2010
+234,New Jersey,NJ,61.0,2010
+235,New Mexico,NM,81.9,2010
+236,New York,NY,51.0,2010
+237,North Carolina,NC,93.1,2010
+238,North Dakota,ND,63.0,2010
+239,Ohio,OH,102.4,2010
+240,Oklahoma,OK,119.6,2010
+241,Oregon,OR,101.2,2010
+242,Pennsylvania,PA,81.0,2010
+243,Rhode Island,RI,82.7,2010
+244,South Carolina,SC,98.6,2010
+245,South Dakota,SD,54.0,2010
+246,Tennessee,TN,140.0,2010
+247,Texas,TX,73.0,2010
+248,Utah,UT,86.6,2010
+249,Vermont,VT,54.1,2010
+250,Virginia,VA,75.5,2010
+251,Washington,WA,85.0,2010
+252,West Virginia,WV,143.1,2010
+253,Wisconsin,WI,74.4,2010
+254,Wyoming,WY,80.4,2010
+255,Alabama,AL,136.6,2011
+256,Alaska,AK,68.0,2011
+257,Arizona,AZ,88.6,2011
+258,Arkansas,AR,115.2,2011
+259,California,CA,55.9,2011
+260,Colorado,CO,73.0,2011
+261,Connecticut,CT,69.1,2011
+262,Delaware,DE,99.7,2011
+263,District of Columbia,DC,39.8,2011
+264,Florida,FL,83.5,2011
+265,Georgia,GA,88.6,2011
+266,Hawaii,HI,50.1,2011
+267,Idaho,ID,91.4,2011
+268,Illinois,IL,64.3,2011
+269,Indiana,IN,106.7,2011
+270,Iowa,IA,64.0,2011
+271,Kansas,KS,87.8,2011
+272,Kentucky,KY,137.0,2011
+273,Louisiana,LA,111.7,2011
+274,Maine,ME,93.1,2011
+275,Maryland,MD,72.9,2011
+276,Massachusetts,MA,65.9,2011
+277,Michigan,MI,98.8,2011
+278,Minnesota,MN,60.0,2011
+279,Mississippi,MS,117.2,2011
+280,Missouri,MO,91.6,2011
+281,Montana,MT,85.3,2011
+282,Nebraska,NE,68.8,2011
+283,Nevada,NV,100.3,2011
+284,New Hampshire,NH,80.9,2011
+285,New Jersey,NJ,61.5,2011
+286,New Mexico,NM,81.6,2011
+287,New York,NY,51.1,2011
+288,North Carolina,NC,93.5,2011
+289,North Dakota,ND,61.3,2011
+290,Ohio,OH,101.5,2011
+291,Oklahoma,OK,122.3,2011
+292,Oregon,OR,100.7,2011
+293,Pennsylvania,PA,81.7,2011
+294,Rhode Island,RI,82.5,2011
+295,South Carolina,SC,96.8,2011
+296,South Dakota,SD,55.1,2011
+297,Tennessee,TN,138.5,2011
+298,Texas,TX,72.0,2011
+299,Utah,UT,85.2,2011
+300,Vermont,VT,53.6,2011
+301,Virginia,VA,76.6,2011
+302,Washington,WA,81.6,2011
+303,West Virginia,WV,139.6,2011
+304,Wisconsin,WI,75.2,2011
+305,Wyoming,WY,78.2,2011
+306,Alabama,AL,143.8,2012
+307,Alaska,AK,66.8,2012
+308,Arizona,AZ,85.3,2012
+309,Arkansas,AR,121.8,2012
+310,California,CA,56.4,2012
+311,Colorado,CO,73.5,2012
+312,Connecticut,CT,69.3,2012
+313,Delaware,DE,94.0,2012
+314,District of Columbia,DC,40.3,2012
+315,Florida,FL,75.9,2012
+316,Georgia,GA,89.4,2012
+317,Hawaii,HI,50.4,2012
+318,Idaho,ID,92.0,2012
+319,Illinois,IL,66.1,2012
+320,Indiana,IN,110.5,2012
+321,Iowa,IA,74.1,2012
+322,Kansas,KS,90.3,2012
+323,Kentucky,KY,127.9,2012
+324,Louisiana,LA,113.0,2012
+325,Maine,ME,89.7,2012
+326,Maryland,MD,72.2,2012
+327,Massachusetts,MA,65.7,2012
+328,Michigan,MI,100.7,2012
+329,Minnesota,MN,60.9,2012
+330,Mississippi,MS,121.8,2012
+331,Missouri,MO,95.4,2012
+332,Montana,MT,87.7,2012
+333,Nebraska,NE,73.2,2012
+334,Nevada,NV,98.9,2012
+335,New Hampshire,NH,83.7,2012
+336,New Jersey,NJ,60.1,2012
+337,New Mexico,NM,76.8,2012
+338,New York,NY,51.8,2012
+339,North Carolina,NC,98.6,2012
+340,North Dakota,ND,62.1,2012
+341,Ohio,OH,97.5,2012
+342,Oklahoma,OK,127.4,2012
+343,Oregon,OR,98.7,2012
+344,Pennsylvania,PA,83.3,2012
+345,Rhode Island,RI,83.2,2012
+346,South Carolina,SC,104.0,2012
+347,South Dakota,SD,60.1,2012
+348,Tennessee,TN,136.1,2012
+349,Texas,TX,73.4,2012
+350,Utah,UT,84.5,2012
+351,Vermont,VT,54.6,2012
+352,Virginia,VA,79.6,2012
+353,Washington,WA,78.7,2012
+354,West Virginia,WV,136.9,2012
+355,Wisconsin,WI,76.8,2012
+356,Wyoming,WY,80.5,2012
+357,Alabama,AL,142.4,2013
+358,Alaska,AK,63.7,2013
+359,Arizona,AZ,80.4,2013
+360,Arkansas,AR,120.9,2013
+361,California,CA,54.4,2013
+362,Colorado,CO,71.2,2013
+363,Connecticut,CT,67.4,2013
+364,Delaware,DE,92.7,2013
+365,District of Columbia,DC,41.1,2013
+366,Florida,FL,73.5,2013
+367,Georgia,GA,86.6,2013
+368,Hawaii,HI,49.4,2013
+369,Idaho,ID,89.2,2013
+370,Illinois,IL,63.7,2013
+371,Indiana,IN,106.3,2013
+372,Iowa,IA,72.2,2013
+373,Kansas,KS,88.7,2013
+374,Kentucky,KY,111.7,2013
+375,Louisiana,LA,112.4,2013
+376,Maine,ME,85.9,2013
+377,Maryland,MD,69.0,2013
+378,Massachusetts,MA,63.0,2013
+379,Michigan,MI,98.9,2013
+380,Minnesota,MN,58.3,2013
+381,Mississippi,MS,119.6,2013
+382,Missouri,MO,93.3,2013
+383,Montana,MT,84.2,2013
+384,Nebraska,NE,71.3,2013
+385,Nevada,NV,91.1,2013
+386,New Hampshire,NH,82.0,2013
+387,New Jersey,NJ,58.3,2013
+388,New Mexico,NM,71.4,2013
+389,New York,NY,46.7,2013
+390,North Carolina,NC,96.7,2013
+391,North Dakota,ND,60.1,2013
+392,Ohio,OH,93.1,2013
+393,Oklahoma,OK,123.3,2013
+394,Oregon,OR,94.2,2013
+395,Pennsylvania,PA,81.6,2013
+396,Rhode Island,RI,76.9,2013
+397,South Carolina,SC,103.0,2013
+398,South Dakota,SD,60.6,2013
+399,Tennessee,TN,127.1,2013
+400,Texas,TX,70.0,2013
+401,Utah,UT,82.1,2013
+402,Vermont,VT,52.2,2013
+403,Virginia,VA,76.6,2013
+404,Washington,WA,75.2,2013
+405,West Virginia,WV,129.0,2013
+406,Wisconsin,WI,73.8,2013
+407,Wyoming,WY,81.5,2013
+408,Alabama,AL,135.2,2014
+409,Alaska,AK,62.7,2014
+410,Arizona,AZ,79.7,2014
+411,Arkansas,AR,123.2,2014
+412,California,CA,52.7,2014
+413,Colorado,CO,69.6,2014
+414,Connecticut,CT,66.0,2014
+415,Delaware,DE,91.0,2014
+416,District of Columbia,DC,40.1,2014
+417,Florida,FL,71.4,2014
+418,Georgia,GA,83.8,2014
+419,Hawaii,HI,47.7,2014
+420,Idaho,ID,87.4,2014
+421,Illinois,IL,62.3,2014
+422,Indiana,IN,96.7,2014
+423,Iowa,IA,72.3,2014
+424,Kansas,KS,86.5,2014
+425,Kentucky,KY,110.0,2014
+426,Louisiana,LA,108.9,2014
+427,Maine,ME,82.4,2014
+428,Maryland,MD,67.6,2014
+429,Massachusetts,MA,59.6,2014
+430,Michigan,MI,98.0,2014
+431,Minnesota,MN,56.6,2014
+432,Mississippi,MS,116.3,2014
+433,Missouri,MO,90.7,2014
+434,Montana,MT,80.1,2014
+435,Nebraska,NE,70.1,2014
+436,Nevada,NV,90.1,2014
+437,New Hampshire,NH,79.6,2014
+438,New Jersey,NJ,57.2,2014
+439,New Mexico,NM,71.5,2014
+440,New York,NY,43.9,2014
+441,North Carolina,NC,93.7,2014
+442,North Dakota,ND,58.1,2014
+443,Ohio,OH,89.5,2014
+444,Oklahoma,OK,110.9,2014
+445,Oregon,OR,91.9,2014
+446,Pennsylvania,PA,79.9,2014
+447,Rhode Island,RI,72.8,2014
+448,South Carolina,SC,101.3,2014
+449,South Dakota,SD,61.7,2014
+450,Tennessee,TN,121.3,2014
+451,Texas,TX,67.0,2014
+452,Utah,UT,78.8,2014
+453,Vermont,VT,50.4,2014
+454,Virginia,VA,73.5,2014
+455,Washington,WA,74.2,2014
+456,West Virginia,WV,126.4,2014
+457,Wisconsin,WI,71.9,2014
+458,Wyoming,WY,80.9,2014
+459,Alabama,AL,125.0,2015
+460,Alaska,AK,60.8,2015
+461,Arizona,AZ,75.5,2015
+462,Arkansas,AR,117.2,2015
+463,California,CA,47.7,2015
+464,Colorado,CO,65.1,2015
+465,Connecticut,CT,62.3,2015
+466,Delaware,DE,84.4,2015
+467,District of Columbia,DC,35.7,2015
+468,Florida,FL,67.1,2015
+469,Georgia,GA,79.4,2015
+470,Hawaii,HI,44.3,2015
+471,Idaho,ID,81.9,2015
+472,Illinois,IL,59.1,2015
+473,Indiana,IN,89.1,2015
+474,Iowa,IA,68.6,2015
+475,Kansas,KS,80.5,2015
+476,Kentucky,KY,102.6,2015
+477,Louisiana,LA,100.4,2015
+478,Maine,ME,76.5,2015
+479,Maryland,MD,63.0,2015
+480,Massachusetts,MA,54.0,2015
+481,Michigan,MI,90.5,2015
+482,Minnesota,MN,52.1,2015
+483,Mississippi,MS,110.9,2015
+484,Missouri,MO,84.5,2015
+485,Montana,MT,73.3,2015
+486,Nebraska,NE,65.5,2015
+487,Nevada,NV,85.4,2015
+488,New Hampshire,NH,74.8,2015
+489,New Jersey,NJ,56.0,2015
+490,New Mexico,NM,69.8,2015
+491,New York,NY,45.1,2015
+492,North Carolina,NC,88.4,2015
+493,North Dakota,ND,53.0,2015
+494,Ohio,OH,82.7,2015
+495,Oklahoma,OK,104.4,2015
+496,Oregon,OR,84.2,2015
+497,Pennsylvania,PA,75.5,2015
+498,Rhode Island,RI,65.7,2015
+499,South Carolina,SC,95.1,2015
+500,South Dakota,SD,59.1,2015
+501,Tennessee,TN,114.9,2015
+502,Texas,TX,59.8,2015
+503,Utah,UT,74.4,2015
+504,Vermont,VT,60.1,2015
+505,Virginia,VA,68.1,2015
+506,Washington,WA,69.8,2015
+507,West Virginia,WV,111.3,2015
+508,Wisconsin,WI,67.5,2015
+509,Wyoming,WY,75.4,2015
+510,Alabama,AL,121.0,2016
+511,Alaska,AK,58.9,2016
+512,Arizona,AZ,70.2,2016
+513,Arkansas,AR,114.6,2016
+514,California,CA,44.8,2016
+515,Colorado,CO,59.8,2016
+516,Connecticut,CT,55.9,2016
+517,Delaware,DE,79.2,2016
+518,District of Columbia,DC,32.5,2016
+519,Florida,FL,66.6,2016
+520,Georgia,GA,77.8,2016
+521,Hawaii,HI,41.9,2016
+522,Idaho,ID,77.6,2016
+523,Illinois,IL,56.8,2016
+524,Indiana,IN,83.9,2016
+525,Iowa,IA,64.0,2016
+526,Kansas,KS,76.9,2016
+527,Kentucky,KY,97.2,2016
+528,Louisiana,LA,98.1,2016
+529,Maine,ME,66.9,2016
+530,Maryland,MD,58.7,2016
+531,Massachusetts,MA,47.1,2016
+532,Michigan,MI,84.9,2016
+533,Minnesota,MN,46.9,2016
+534,Mississippi,MS,105.6,2016
+535,Missouri,MO,80.4,2016
+536,Montana,MT,69.8,2016
+537,Nebraska,NE,62.8,2016
+538,Nevada,NV,80.7,2016
+539,New Hampshire,NH,64.3,2016
+540,New Jersey,NJ,52.6,2016
+541,New Mexico,NM,65.1,2016
+542,New York,NY,42.7,2016
+543,North Carolina,NC,82.5,2016
+544,North Dakota,ND,47.8,2016
+545,Ohio,OH,75.3,2016
+546,Oklahoma,OK,97.9,2016
+547,Oregon,OR,76.3,2016
+548,Pennsylvania,PA,69.5,2016
+549,Rhode Island,RI,60.3,2016
+550,South Carolina,SC,89.4,2016
+551,South Dakota,SD,54.8,2016
+552,Tennessee,TN,107.5,2016
+553,Texas,TX,57.6,2016
+554,Utah,UT,70.4,2016
+555,Vermont,VT,58.6,2016
+556,Virginia,VA,63.4,2016
+557,Washington,WA,64.9,2016
+558,West Virginia,WV,96.0,2016
+559,Wisconsin,WI,62.2,2016
+560,Wyoming,WY,71.1,2016
+561,Alabama,AL,107.2,2017
+562,Alaska,AK,52.0,2017
+563,Arizona,AZ,61.2,2017
+564,Arkansas,AR,105.4,2017
+565,California,CA,39.5,2017
+566,Colorado,CO,52.9,2017
+567,Connecticut,CT,48.0,2017
+568,Delaware,DE,68.3,2017
+569,District of Columbia,DC,28.5,2017
+570,Florida,FL,60.9,2017
+571,Georgia,GA,70.9,2017
+572,Hawaii,HI,37.0,2017
+573,Idaho,ID,70.3,2017
+574,Illinois,IL,51.1,2017
+575,Indiana,IN,74.2,2017
+576,Iowa,IA,56.4,2017
+577,Kansas,KS,69.8,2017
+578,Kentucky,KY,86.8,2017
+579,Louisiana,LA,89.5,2017
+580,Maine,ME,55.7,2017
+581,Maryland,MD,51.7,2017
+582,Massachusetts,MA,40.1,2017
+583,Michigan,MI,74.2,2017
+584,Minnesota,MN,41.0,2017
+585,Mississippi,MS,92.9,2017
+586,Missouri,MO,71.8,2017
+587,Montana,MT,61.1,2017
+588,Nebraska,NE,56.6,2017
+589,Nevada,NV,73.0,2017
+590,New Hampshire,NH,52.8,2017
+591,New Jersey,NJ,44.2,2017
+592,New Mexico,NM,56.4,2017
+593,New York,NY,37.8,2017
+594,North Carolina,NC,72.0,2017
+595,North Dakota,ND,41.5,2017
+596,Ohio,OH,63.5,2017
+597,Oklahoma,OK,88.1,2017
+598,Oregon,OR,66.1,2017
+599,Pennsylvania,PA,57.7,2017
+600,Rhode Island,RI,51.2,2017
+601,South Carolina,SC,79.3,2017
+602,South Dakota,SD,49.0,2017
+603,Tennessee,TN,94.4,2017
+604,Texas,TX,53.1,2017
+605,Utah,UT,63.8,2017
+606,Vermont,VT,50.5,2017
+607,Virginia,VA,52.9,2017
+608,Washington,WA,57.2,2017
+609,West Virginia,WV,81.3,2017
+610,Wisconsin,WI,52.6,2017
+611,Wyoming,WY,64.8,2017
+612,United States,US,51.4,2018
+613,Alaska,AK,44.9,2018
+614,Alabama,AL,97.5,2018
+615,Arkansas,AR,93.5,2018
+616,Arizona,AZ,50.7,2018
+617,California,CA,35.1,2018
+618,Colorado,CO,45.1,2018
+619,Connecticut,CT,43.0,2018
+620,District of Columbia,DC,25.0,2018
+621,Delaware,DE,60.6,2018
+622,Florida,FL,53.7,2018
+623,Georgia,GA,63.2,2018
+624,Hawaii,HI,33.4,2018
+625,Iowa,IA,49.3,2018
+626,Idaho,ID,61.9,2018
+627,Illinois,IL,45.2,2018
+628,Indiana,IN,65.8,2018
+629,Kansas,KS,64.3,2018
+630,Kentucky,KY,79.5,2018
+631,Louisiana,LA,79.4,2018
+632,Massachusetts,MA,35.3,2018
+633,Maryland,MD,45.1,2018
+634,Maine,ME,48.1,2018
+635,Michigan,MI,62.7,2018
+636,Minnesota,MN,35.5,2018
+637,Missouri,MO,63.4,2018
+638,Mississippi,MS,76.8,2018
+639,Montana,MT,54.0,2018
+640,North Carolina,NC,61.5,2018
+641,North Dakota,ND,37.4,2018
+642,Nebraska,NE,50.6,2018
+643,New Hampshire,NH,46.1,2018
+644,New Jersey,NJ,38.9,2018
+645,New Mexico,NM,49.4,2018
+646,Nevada,NV,55.5,2018
+647,New York,NY,34.0,2018
+648,Ohio,OH,53.5,2018
+649,Oklahoma,OK,79.1,2018
+650,Oregon,OR,57.3,2018
+651,Pennsylvania,PA,49.9,2018
+652,Rhode Island,RI,43.0,2018
+653,South Carolina,SC,69.2,2018
+654,South Dakota,SD,42.6,2018
+655,Tennessee,TN,81.8,2018
+656,Texas,TX,47.2,2018
+657,Utah,UT,57.1,2018
+658,Virginia,VA,44.8,2018
+659,Vermont,VT,42.4,2018
+660,Washington,WA,49.3,2018
+661,Wisconsin,WI,45.8,2018
+662,West Virginia,WV,69.3,2018
+663,Wyoming,WY,57.1,2018
