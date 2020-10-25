@@ -1,0 +1,158 @@
+/* back ground color primary */
+.bg-primary{
+    background-color:#007bff!important
+}
+/* back ground color primary */
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover{
+    background-color:#0062cc!important
+}
+/* back ground color primary for nav bar */
+nav.bg-primary {
+    background-color:  steelblue!important;
+}; 
+/* back ground color secondary */
+.bg-secondary{
+    background-color:#6c757d!important
+}
+/* back ground color secondary */
+a.bg-secondary:focus,
+a.bg-secondary:hover,
+button.bg-secondary:focus,
+button.bg-secondary:hover{
+    background-color:#545b62!important
+}
+
+/* html/body height */
+html, body {
+    height: 100%;
+}
+/* back ground color for the main Element */
+#main {
+    background-size: cover;
+    background-image: linear-gradient(to bottom right, rgb(196, 225, 238), rgb(231, 216, 190));
+    height: 100%;
+  }
+
+  /* img-small Element */
+.img-small {
+    height :200px;
+    width :250px;
+    padding: 10px;
+}
+
+/* img-thumbnail Element */
+.img-thumbnail {
+    height :150px;
+    width :200px;
+    margin-top: 5%;
+    padding : 2px;
+}
+/* img-large Element */
+.img-large {
+    height :250px;
+    width :400px;
+    padding: 10px;
+}
+
+/* img-medium Element */
+.img-medium {
+    height :200px;
+    width :400px;
+    padding: 10px;
+}
+
+/* box Element */
+.box {
+    height: 225px;
+    padding: 20px;
+    color: #fff;
+    background: rgba(186, 188, 189, 0.171);
+  }
+
+  /* brand Element */
+.brand {
+    width : 100px;
+    text-align: center;
+}
+/* Paragraph Element */
+p{
+    color: #24282c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    padding :1%;
+   }
+
+/* sectionheading Class  */
+.sectionheading{
+    color: #0BADA6;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    
+}
+
+/* sectionsubheading Class  */
+.sectionsubheading{
+    color: #0BADA6;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    font-size :15px;
+    padding: 1%;
+}
+
+/* highlignt imgframe Element */
+.highlight{
+    border-color:#41414e;
+    border-style: solid; 
+    
+}
+
+.tableHeader {
+    text-align: left;
+    background-color: lightsteelblue;
+}
+
+.div {
+    margin-top: 5px;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #cfd7df;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  
+  .about .content {
+    padding: 10px;
+    border-style: solid;
+    background-color: whitesmoke;
+    border-width: 1px;
+    border-radius: 1px;
+    color: rgb(10, 8, 29);
+  }
+  
+  .about p {  
+        color: #020b14;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px; 
+        font-weight: bold;
+        text-align: justify;
+        padding :1%;
+   }
+    
+  
