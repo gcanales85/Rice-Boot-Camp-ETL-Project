@@ -16,7 +16,7 @@ The CDC also collates and releases data related to drug overdoses as collected f
 # Extraction: Source 3) NCHS - Drug Poisoning Mortality by State: United States
 (https://catalog.data.gov/dataset/nchs-drug-poisoning-mortality-by-state-united-states-dc4ee/resource/537c480c-051a-419f-b727-336cb6930e81)
 
-text? Death counts? By year and state?
+The National Center for Health Statistics collates an incredible amount of information related to death sources by state
 
 # Transformation
 
@@ -38,8 +38,8 @@ Columns
 
 A researcher looking to relate legal drug prescriptions against overdose deaths would be the primary user of this database. The data can be related together via State and/or year. As there is a chronological element, they would be able to analyse trends over time, or map out a heat map showing all the states related together.
 
-
-FINAL REPORT REQUIREMENTS -What data sources you chose, and why? -Detailing the process of the extraction, transformation, and loading steps
+# *INSTRUCTIONS* To be removed at the end
+# FINAL REPORT REQUIREMENTS -What data sources you chose, and why? -Detailing the process of the extraction, transformation, and loading steps
 
 Explain why you have performed the types of transformation you did
 Why you chose the type of final database
