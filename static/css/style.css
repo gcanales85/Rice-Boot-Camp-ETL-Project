@@ -11,7 +11,7 @@ button.bg-primary:hover{
 }
 /* back ground color primary for nav bar */
 nav.bg-primary {
-    background-color:  steelblue!important;
+    background-color:  rgba(0, 0, 128, 0.712)!important;
 }; 
 /* back ground color secondary */
 .bg-secondary{
@@ -32,7 +32,7 @@ html, body {
 /* back ground color for the main Element */
 #main {
     background-size: cover;
-    background-image: linear-gradient(to bottom right, rgb(196, 225, 238), rgb(231, 216, 190));
+    background-color: #f0f0f0;
     height: 100%;
   }
 
@@ -68,8 +68,8 @@ html, body {
 .box {
     height: 225px;
     padding: 20px;
-    color: #fff;
-    background: rgba(186, 188, 189, 0.171);
+    color: rgb(52, 51, 54);
+    background: rgb(249, 250, 252);
   }
 
   /* brand Element */
@@ -85,6 +85,14 @@ p{
     padding :1%;
    }
 
+p.highlight {
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    padding :1%;
+    text-align: justify;
+    font-weight: bold;
+}
 /* sectionheading Class  */
 .sectionheading{
     color: #0BADA6;  
@@ -102,12 +110,6 @@ p{
     padding: 1%;
 }
 
-/* highlignt imgframe Element */
-.highlight{
-    border-color:#41414e;
-    border-style: solid; 
-    
-}
 
 .tableHeader {
     text-align: left;
@@ -118,17 +120,33 @@ p{
     margin-top: 5px;
 }
 
+h3 
+{
+    color : navy;
+}
 
+
+
+h4 {
+    color : navy;
+}
+
+h5 {
+    color : navy;
+}
+.container {
+    width : 75%;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-    padding: 60px 0;
+    padding: 20px 0;
     overflow: hidden;
   }
   
   .section-bg {
-    background-color: #cfd7df;
+    background-color: rgb(249, 250, 252)
   }
   
   .section-title {
@@ -139,15 +157,12 @@ section {
   
   .about .content {
     padding: 10px;
-    border-style: solid;
-    background-color: whitesmoke;
-    border-width: 1px;
-    border-radius: 1px;
-    color: rgb(10, 8, 29);
+    background-color:  rgb(249, 250, 252);
+    color:navy;
   }
   
   .about p {  
-        color: #020b14;
+        color: navy;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px; 
         font-weight: bold;
@@ -155,4 +170,6 @@ section {
         padding :1%;
    }
     
-  
+   .jumbotron {
+    background-color: rgb(249, 250, 252)
+  }

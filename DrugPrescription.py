@@ -101,7 +101,7 @@ def AllPrescriptionStatisticsByYear(yearList):
 
 
 # a method to pull all the data from the database
-def AllPrescriptionStatisticsByState(stateAbbrList):
+def AllPrescriptionStatisticsByState(stateResultCode, stateAbbrList):
 
     #establish a client to mongodb server
     conn = 'mongodb://localhost:27017'
@@ -122,25 +122,26 @@ def AllPrescriptionStatisticsByState(stateAbbrList):
     # filter the data from collections
     prescriptions = prescriptionCollection.find()
     population = populationCollection.find()    
-        
+
     #build the data frame
     prDF = pd.DataFrame(list(prescriptions))
     ppDF = pd.DataFrame(list(population))
 
-
     # filter the prescriptions dataframe with state name
     prescriptionsDF = pd.DataFrame(prDF.loc[prDF['state'].isin(stateList)])
-    if (prescriptionsDF.empty) :
-        return ("1", prescriptionsDF)
-    
-
     # filter the prescriptions dataframe with state name
     populationDF = pd.DataFrame(ppDF.loc[ppDF['state'].isin(stateList)])
 
+    
+    #if prescription data is empty return 
+    if (prescriptionsDF.empty) :
+        return ("1", prescriptionsDF)
+
+    #if population data is empty return 
     if (populationDF.empty) :
         return ("2", populationDF)
     
-    #filter the index before merge
+    #reset the index before merge
     prescriptionsDF = prescriptionsDF.reset_index(drop = True)
     populationDF = populationDF.reset_index(drop = True)
 
@@ -153,8 +154,7 @@ def AllPrescriptionStatisticsByState(stateAbbrList):
                                 'deaths', 'population', 'crude_death_rate', 'standard_error_for_crude_rate', \
                                 'lower_confidence_limit_for_crude_rate', 'upper_confidence_limit_for_crude_rate',\
                                 'age_adjusted_rate', 'standard_error_for_age_adjusted_rate', 'lower_confidence_limit_for_age_adjusted_rate',\
-                        
-                        'upper_confidence_limit_for_age_adjusted_rate', 'state_crude_rate_in_range', 'us_crude_rate',\
+                                'upper_confidence_limit_for_age_adjusted_rate', 'state_crude_rate_in_range', 'us_crude_rate',\
                                 'us_age_adjusted_rate', 'unit']]
     print(outputDF)
 

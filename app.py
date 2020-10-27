@@ -106,7 +106,7 @@ def DrugPrescriptionStatisticsByState(state):
         if (stateResultCode  == "-1" ):
             return (stateResult) 
        
-        resultcode, drugPrescriptionStatisticsByState = dp.AllPrescriptionStatisticsByState(stateResult)
+        resultcode, drugPrescriptionStatisticsByState = dp.AllPrescriptionStatisticsByState(stateResultCode, stateResult)
         if (resultcode.startswith("1") ):
             return (f"prescription statistics empty")
         if (resultcode.startswith("2")) :

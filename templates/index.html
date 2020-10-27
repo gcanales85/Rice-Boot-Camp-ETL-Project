@@ -18,7 +18,7 @@
   
 </head>
  
-<body class="bg-light">
+<body id = "main" >
 
     <header id="header" class="fixed-top">
         <div >
@@ -37,11 +37,8 @@
                     <a class="nav-link" href="{{ url_for('index', _anchor='about') }}">About</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#statistics">Death vs prescription</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#data">Death Statistics</a>
-                    </li>             
+                    <a class="nav-link" href="#apilinks">Datasets Links</a>
+                    </li>         
                     
 
                     <li class="nav-item">
@@ -62,10 +59,11 @@
 
 
             </p>
+            <h3>About Us</h3>
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 content">
               
-                <h3>About Us</h3>
+               
                
                <a src="/static/img/Opioids Infographic.png"> <img src="/static/img/Opioids Infographic.png"  class="img-large float-left"></a>
                <p>Opioid addiction is a long-lasting (chronic) disease that can cause major health, social, and economic problems. 
@@ -84,37 +82,85 @@
         </div>
       </section><!-- End About Section -->
   
-      <section id="contact" class="contact">
-        <div class="container">
-            <p><h3> Contact Us</h3></p>
-          <div class="row">
-          
-            <div class="col-lg-3 col-md-3 col-sm-6">
-              <div class="box">
-                <img src="" class="img-thumbnail"> </img>
-                <p>Justin Chow</p>
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-3 col-sm-6">
-                <div class="box">
-                  <img src="" class="img-thumbnail"> </img>
-                  <p>Gina Canales</p>
+     
+        <div id="apilinks" class="container">
+
+          <h3>Available APIs</h3>
+                  
+       
+        <div class ="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="jumbotron">
+              <p class= "highlight">Here you'll find the links to our many data sets that are currently available via API.<br/>
+                We will add more to our publicly available datasets. Watch this space for more updates!!!</p>
+                <hr class="my-4">
+              <h4>Prescription Vs Opiod Death Statistics</h4>
+              <p>
+                The dataset shows the geographic distribution in the United States of retail opioid prescriptions dispensed per 100 persons per year compared against the Opiod related deaths. 
+                <a href="/DrugPrescriptionDetails"> Click here for the full dataset</a>
+              </p>
+              <h5>Filter By State</h5>               
+              <p>You can filter the dataset for required states. For eg:, if you would like to filter the dataset by Texas, Arkansas, provide the query as state=Tx,Ar .<br/>
+                <a href="/DrugPrescriptionDetailsByState/state=Tx"> Click here to filter by state</a></p>
+
+              <h5>Filter By Year</h5>               
+              <p>You can filter the dataset for required years. For eg:, if you would like to filter the dataset by 2010, 2011, provide the query as year=2010,2011 .<br/>
+                  <a href="/DrugPrescriptionDetailsByYear/year=2010,2011"> Click here to filter by year</a></p>
+
+              <h5>Filter By State and Year</h5>               
+              <p>You can filter the dataset for required states and years. For eg:, if you would like to filter the dataset by Texas and Arkansas for the year 2010 and 2011, provide the query as state=Tx,Ar/year=2010,2011 .<br/>
+                  <a href="/DrugPrescriptionDetailsByStateAndYear/state=Tx,Ar/year=2010,2011"> Click here to filter by State and year</a></p>
+
+                  <hr class="my-4">
+
+                  <h4>Opiod Drug Abuse statistics </h4>
+                  <p>
+                    The dataset shows the geographic distribution in the United States of Opiod related death statistics broken down by months. Currently supports Alaska, Alabama, Arkansas. 
+                    <a href="/DrugDetails"> Click here for the full dataset</a>
+                  </p>
+
+                  <h5>Filter By State and Year</h5>               
+                <p>You can filter the dataset for required states and years. For eg:, if you would like to filter the dataset by Alaska and Arkansas for the year 2017 and 2016, provide the query as state=Ak,Ar/year=2017,2016 .<br/>
+                  <a href="/DrugDetailsByStateAndYear/state=AK,AR/year=2017,2016"> Click here to filter by State and year</a></p>
+
+            
                 </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-3 col-sm-6">
-                <div class="box">
-                  <img src="" class="img-thumbnail"> </img>
-                  <p>Radhika Balasubramaniam</p>
-                </div>
-            </div>
-  
-          
-  
           </div>
-  
         </div>
+        
+        
+
+      </div>
+    
+      
+      <section id="contact" class="contact">
+        <div class="container" >
+          <p><h3> Contact Us</h3></p>
+          <div class="row">
+            
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="box">
+                  <img src="" class="img-thumbnail"> </img>
+                  <p>Justin Chow</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="box">
+                    <img src="" class="img-thumbnail"> </img>
+                    <p>Gina Canales</p>
+                  </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="box">
+                    <img src="" class="img-thumbnail"> </img>
+                    <p>Radhika Balasubramaniam</p>
+                </div>
+              </div>         
+    
+          </div>
+      </div>
       </section> 
   
     </main>
