@@ -24,25 +24,36 @@ Once the sources were collected in a consumable format, the next task was to att
 
 ## Loading
 
-Python scripts using the API Flask module were used to export the final database into browsable HTML page. Ultimately **six different** APIs were set up with different queries in mind. Please see the Final Schema section for detailed breakdown. 
+Python scripts using the API Flask module were used to export the final database into browsable HTML page. **Six filtered** APIs were set up with different queries in mind, but ultimately were of the same dataset. Please see the Final Schema section for detailed breakdown. 
 
 ## Final Schema
 
-
- * Column 1
- * Column 2
- * Column 3
- * Column 4
- * Column 5
+ * state
+ * state abbr
+ * year
+ * prescribing rate
+ * sex
+ * age_group
+ * race_and_hispanic_origin
+ * deaths
+ * population
+ 
+ *Secondary columns schema, likely not necessary for final analysis but left in if a researcher wants it*
+ * crude_death_rate
+ * standard_error_for_crude_rate
+ * lower_confidence_limit_for_crude_rate
+ * upper_confidence_limit_for_crude_rate
+ * age_adjusted_rate
+ * standard_error_for_age_adjusted_rate
+ * lower_confidence_limit_for_age_adjusted_rate
+ * upper_confidence_limit_for_age_adjusted_rate
+ * state_crude_rate_in_range
+ * us_crude_rate
+ * us_age_adjusted_rate
+ * unit
  
 ## Using the Database
 
 A researcher looking to relate legal drug prescriptions against overdose deaths would be the primary user of this database. The data can be related together via State and/or year. As there is a chronological element, they would be able to analyse trends over time, or map out a heat map showing all the states related together.
 
-## *INSTRUCTIONS* To be removed at the end
-## FINAL REPORT REQUIREMENTS -What data sources you chose, and why? -Detailing the process of the extraction, transformation, and loading steps
 
-Explain why you have performed the types of transformation you did
-Why you chose the type of final database
-Schema of the tables/collections in the final database
-Hypothetical use case(s) for your database
