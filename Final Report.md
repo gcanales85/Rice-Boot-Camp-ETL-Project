@@ -16,18 +16,19 @@ The CDC also collates and releases data related to drug overdoses as collected f
 ## Extraction: Source 3) NCHS - Drug Poisoning Mortality by State: United States
 (https://catalog.data.gov/dataset/nchs-drug-poisoning-mortality-by-state-united-states-dc4ee/resource/537c480c-051a-419f-b727-336cb6930e81)
 
-The National Center for Health Statistics collates an incredible amount of information related to death sources by state
+The National Center for Health Statistics collates an incredible amount of information related to death sources by state, moreso than source 2. Overall, this ended up being a more extensive version of source 2, though the source being an extensive JSON file as well, the same procedures to consume the file were applied as in source 2.
 
 ## Transformation
 
-Once the sources were collected in a consumable format, the next task was to attempt to relate them together within a useable database. Sources were transformed into useable python dictionaries, with the intention of converting to JSON that can be referred to via Python API flask. Though the extraction process cleaned up the the majority of the datasets, some miscellaneous data that ended up being outside the scope of analysis had to be dropped. Ultimately since the datasets were a mix of qualitative and quantitative data, the transformations worked best as **semi-relational,** with some common columns between datasets available; datasets were imported into a Mongo database for ease of use.
+Once the sources were collected in a consumable format, the next task was to attempt to relate them together within a useable database. Sources were transformed into useable python dictionaries, with the intention of converting to JSON that can be referred to via Python API flask. Though the extraction process cleaned up the the majority of the datasets, some miscellaneous data that ended up being outside the scope of analysis had to be dropped. Ultimately since the datasets were a mix of qualitative and quantitative data, the transformations worked best as **semi-relational,** with some common columns between datasets available; datasets were imported into a Mongo database for ease of use. Additionally this database was designed with *flexibility* in mind (in case more and more sources would be added over time), so a non-relational database would be ideal for this task.
 
 ## Loading
 
-Python scripts using the API Flask module were used to export the final database into browsable HTML page. 
+Python scripts using the API Flask module were used to export the final database into browsable HTML page. Ultimately **six different** APIs were set up with different queries in mind. Please see the Final Schema section for detailed breakdown. 
 
 ## Final Schema
-Columns
+
+
  * Column 1
  * Column 2
  * Column 3
