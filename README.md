@@ -1,5 +1,17 @@
 # ETL Proposal
 Aggregating data regarding opiate prescriptions from multiple sources, primarily comparing number of prescriptions vs. overdose cases or overdose deaths.
+Data should be relatable by both State as well as year.
+
+## Project Work breakdown by File Order
+ * Readme.md (you are here)
+ 1. opioid_prescription_webscrape.ipynb (extraction source 1)
+ 2. ETL_Project.ipynb (extraction source 2)
+ 3. Transformation_PartII.ipynb (extraction source 3)
+ 4. Transformation_PartIII.ipynb (transformation)
+ 5. DrugDetails.py (Loading part 1)
+ 6. DrugPrescription.py (Loading part 2, sets up html page)
+ 7. Final Report.md (Final report)
+
 
 
 # Rice-Boot-Camp-ETL-Project
@@ -16,9 +28,10 @@ Considerations regarding proposal:
 # PROJECT REQUIREMENTS
 Data Sources:
 - At least 2 (or more) sources
-  > Source 1: https://healthdata.gov/dataset/vsrr-provisional-drug-overdose-death-counts
-  > Source 2: https://www.kaggle.com/apryor6/us-opiate-prescriptions
-  > Source 3: none yet, may not need
+  * Source 1: https://healthdata.gov/dataset/vsrr-provisional-drug-overdose-death-counts (JSON format available, satisfies API requirement)
+  * ~~Source 2: https://www.kaggle.com/apryor6/us-opiate-prescriptions~~ Deemed redundant and replaced
+  * Source 2: https://www.cdc.gov/drugoverdose/maps/rxrate-maps.html (data is presented in web tables, will have to perform webscraping to solve)
+  * Source 3: https://catalog.data.gov/dataset/nchs-drug-poisoning-mortality-by-state-united-states-dc4ee/resource/537c480c-051a-419f-b727-336cb6930e81 
 - If possible, try to incorporate a web API as one of your data sources.
   > Source 1 is available as an API, but downloading the JSON should be fine?
 ETL Process:
