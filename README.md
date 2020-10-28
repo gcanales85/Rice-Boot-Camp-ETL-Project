@@ -31,6 +31,7 @@ Data Sources:
   * Source 1: https://healthdata.gov/dataset/vsrr-provisional-drug-overdose-death-counts (JSON format available, satisfies API requirement)
   * ~~Source 2: https://www.kaggle.com/apryor6/us-opiate-prescriptions~~ Deemed redundant and replaced
   * Source 2: https://www.cdc.gov/drugoverdose/maps/rxrate-maps.html (data is presented in web tables, will have to perform webscraping to solve)
+  * Source 3: https://catalog.data.gov/dataset/nchs-drug-poisoning-mortality-by-state-united-states-dc4ee/resource/537c480c-051a-419f-b727-336cb6930e81 
 - If possible, try to incorporate a web API as one of your data sources.
   > Source 1 is available as an API, but downloading the JSON should be fine?
 ETL Process:
