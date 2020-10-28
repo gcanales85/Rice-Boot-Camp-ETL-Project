@@ -2,6 +2,17 @@
 Aggregating data regarding opiate prescriptions from multiple sources, primarily comparing number of prescriptions vs. overdose cases or overdose deaths.
 Data should be relatable by both State as well as year.
 
+## Project Work breakdown by File Order
+ * Readme.md (you are here)
+ 1. opioid_prescription_webscrape.ipynb (extraction source 1)
+ 2. ETL_Project.ipynb (extraction source 2)
+ 3. Transformation_PartII.ipynb (extraction source 3)
+ 4. Transformation_PartIII.ipynb (transformation)
+ 5. DrugDetails.py (Loading part 1)
+ 6. DrugPrescription.py (Loading part 2, sets up html page)
+ 7. Final Report.md (Final report)
+
+
 
 # Rice-Boot-Camp-ETL-Project
 Rice-Boot-Camp-ETL Project
