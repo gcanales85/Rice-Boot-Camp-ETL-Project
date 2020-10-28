@@ -25,6 +25,12 @@ def index():
 @app.route('/DrugDetails')
 def DrugDeathStatistics():
     drugDeathStatistics = ds.AllDataStatistics()
+
+    # if data result  is empty return 
+    if (drugDeathStatisticsByState.empty) :
+        return ("Data not found")
+
+    # return the json dataset
     drugJson = json.dumps(json.loads(drugDeathStatistics.to_json(orient='records')), indent=0)
     return (drugJson)
 
@@ -34,15 +40,25 @@ def DrugDeathStatistics():
 @app.route('/DrugDetailsByState/<state>')
 def DeathStatisticsByState(state):
     try :
+
+        # parse the input parameter
         resultCode, result = ParseStateList(state)
+
+        #if input parameter does not match the format return error message
         if (resultCode  == "-1" ):
             return (result)  
+        
+        # call the method to pull the statistics by state
         drugDeathStatisticsByState = ds.AllDataStatisticsByState(resultCode, result)
+
+        # if data result  is empty return 
         if (drugDeathStatisticsByState.empty) :
             return ("Data not found for queried states")
 
+        # return the json dataset
         drugJson = json.dumps(json.loads(drugDeathStatisticsByState.to_json(orient='records')), indent=0)
         return (drugJson)
+
     except Exception as ex :
         return (ex) 
 
@@ -51,16 +67,24 @@ def DeathStatisticsByState(state):
 @app.route('/DrugDetailsByYear/<year>')
 def DeathStatisticsByYear(year):
     try :
+
+        # parse the input parameter
         resultCode, result = ParseYearList(year)
+
+        #if input parameter does not match the format return error message
         if (resultCode  == "-1" ):
             return (result)  
-        
+        # call the method to pull the statistics by year
         drugDeathStatisticsByYear = ds.AllDataStatisticsByYear(resultCode, result)
+
+        # if data result  is empty return 
         if (drugDeathStatisticsByYear.empty) :
             return ("Data not found for queried years")
 
+        # return the json dataset
         drugJson = json.dumps(json.loads(drugDeathStatisticsByYear.to_json(orient='records')), indent=0)
         return (drugJson)
+
     except Exception as ex :
         return (ex) 
 
@@ -70,21 +94,31 @@ def DeathStatisticsByYear(year):
 def DeathStatisticsByStateAndYear(state, year):
     try :
 
+        # parse the input parameter
         stateResultCode, stateResult = ParseStateList(state)
+
+        #if input parameter does not match the format return error message
         if (stateResultCode  == "-1" ):
             return (stateResult)  
 
+        # parse the input parameter
         yearResultCode, yearResult = ParseYearList(year)
+
+        #if input parameter does not match the format return error message
         if (yearResultCode  == "-1" ):
-            return (yearResult)  
-        
+            return (yearResult)   
       
+        # call the method to pull the statistics by state and year
         drugDeathStatisticsByStateYear = ds.AllDataStatisticsByStateAndYear(stateResultCode, stateResult, yearResultCode, yearResult)
+
+        # if data result  is empty return 
         if (drugDeathStatisticsByStateYear.empty) :
             return ("Data not found for queried state and years")
 
+        # return the json dataset
         drugJson = json.dumps(json.loads(drugDeathStatisticsByStateYear.to_json(orient='records')), indent=0)
         return (drugJson)
+
     except Exception as ex :
         return (ex) 
 
@@ -92,7 +126,15 @@ def DeathStatisticsByStateAndYear(state, year):
 # add the route for drug abuse statistics
 @app.route('/DrugPrescriptionDetails')
 def DrugPrescriptionStatistics():
+    
+    # call the method to pull the prescription statistics
     drugPrescriptionStatistics = dp.AllPrescriptionStatistics()
+    
+    # if data result  is empty return 
+    if (drugPrescriptionStatistics.empty) :
+        return ("Data not found")
+    
+    # return the json dataset
     drugJson = json.dumps(json.loads(drugPrescriptionStatistics.to_json(orient='records')), indent=0)
     return (drugJson)
 
@@ -101,22 +143,30 @@ def DrugPrescriptionStatistics():
 def DrugPrescriptionStatisticsByState(state):
 
     try :
-
+        # parse the input parameter
         stateResultCode, stateResult = ParseStateList(state)
+
+        #if input parameter does not match the format return error message
         if (stateResultCode  == "-1" ):
             return (stateResult) 
        
+       # call the method to pull the prescription statistics
         resultcode, drugPrescriptionStatisticsByState = dp.AllPrescriptionStatisticsByState(stateResultCode, stateResult)
+
+        # if prescription/population is empty then let user know 
         if (resultcode.startswith("1") ):
             return (f"prescription statistics empty")
         if (resultcode.startswith("2")) :
             return ("population statistics details empty")
 
+        # if data result  is empty return 
         if (drugPrescriptionStatisticsByState.empty) :
             return ("Data not found for queried states")
 
+        # return the json dataset
         drugJson = json.dumps(json.loads(drugPrescriptionStatisticsByState.to_json(orient='records')), indent=0)
         return (drugJson)
+
     except Exception as ex :
         return (ex)
     
@@ -127,22 +177,30 @@ def DrugPrescriptionStatisticsByYear(year):
 
     try :
 
+        # parse the input parameter
         yearResultCode, yearResult = ParseYearList(year)
+
+        #if input parameter does not match the format return error message
         if (yearResultCode  == "-1" ):
             return (yearResult) 
 
-       
+       # call the method to pull the prescription statistics
         resultcode, drugPrescriptionStatisticsByYear = dp.AllPrescriptionStatisticsByYear(yearResult)
+
+        # if prescription/population is empty then let user know 
         if (resultcode.startswith("1") ):
             return (f"prescription statistics empty")
         if (resultcode.startswith("2")) :
             return ("population statistics details empty")
 
+        # if data result  is empty return
         if (drugPrescriptionStatisticsByYear.empty) :
             return ("Data not found for queried years")
 
+        # return the json dataset
         drugJson = json.dumps(json.loads(drugPrescriptionStatisticsByYear.to_json(orient='records')), indent=0)
         return (drugJson)
+
     except Exception as ex :
         return (ex)
 
@@ -152,26 +210,35 @@ def DrugPrescriptionStatisticsByStateAndYear(state, year):
 
     try :
 
+        # parse the input parameter
         stateResultCode, stateResult = ParseStateList(state)
+        #if input parameter does not match the format return error message
         if (stateResultCode  == "-1" ):
             return (stateResult)  
 
+        # parse the input parameter
         yearResultCode, yearResult = ParseYearList(year)
+        #if input parameter does not match the format return error message
         if (yearResultCode  == "-1" ):
             return (yearResult) 
 
-       
+        # call the method to pull the prescription statistics
         resultcode, drugPrescriptionStatisticsByStateAndYear = dp.AllPrescriptionStatisticsByStateAndYear(stateResultCode, stateResult, yearResultCode, yearResult)
+
+        # if prescription/population is empty then let user know 
         if (resultcode.startswith("1") ):
             return (f" prescription statistics empty")
         if (resultcode.startswith("2")) :
             return ("population statistics details empty")
 
+        # if data result  is empty return
         if (drugPrescriptionStatisticsByStateAndYear.empty) :
             return ("Data not found for queried state and years")
 
+        # return the json dataset
         drugJson = json.dumps(json.loads(drugPrescriptionStatisticsByStateAndYear.to_json(orient='records')), indent=0)
         return (drugJson)
+
     except Exception as ex :
         return (ex)
 
